@@ -6,3 +6,40 @@ eg- align buttons- flexbox
    - link to a section of a page
    - create a link to an email client
    - css variables
+
+--------------------------------------1.2- html links
+
+--------------------------------------1.3- advanced html links
+
+
+SNIPPRTS
+
+--link
+----link to another website or page on website
+<a href="https://www.shecodes.io/">SheCodes</a>
+<a href="https://www.shecodes.io/" target="_blank">SheCodes</a>
+<a href="https://www.shecodes.io/" target="_blank" title="SheCodes Website">SheCodes</a>
+
+--anchor link 
+----links to a section on the same page
+<a href="#important">
+  Jump to the heading below
+</a>
+
+<div id="important">
+  This is a note
+</div>
+
+--Mailto link
+<a href="mailto:team@shecodes.io">Send us an email</a>
+
+--Pseudo-classes selector
+/* Any button over which the user's pointer is hovering */
+button:hover {
+  color: blue;
+}
+
+/* Applied when the user has already visited the link */
+a:visited {
+  color: red;
+}
