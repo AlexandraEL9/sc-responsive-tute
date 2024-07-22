@@ -43,3 +43,45 @@ button:hover {
 a:visited {
   color: red;
 }
+
+
+--------------------------------------1.4- css variables
+minimizing changes being made in different places.
+
+variable= box where we store info
+
+:root      = pseudo selector at top of css document
+   --    (two dashes infront of the variable)
+
+SNIPPETS
+:root {
+  --main-branding-color: #885df1;
+}
+
+h1 {
+  color: var(--main-branding-color);
+}
+
+--------------------------------------1.5- advanced flexbox
+1. first thing to do- make display flexbox
+    
+
+SNIPPETS
+- flexbox
+
+.container {
+   display: flex;
+   flex-direction: row | row-reverse | column | column-reverse; /* optional */
+   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right; /* optional */
+   flex-direction: row | column; /* optional */
+}
+
+-------align items within container horizontally
+
+links
+flexbox explanation
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+flexbox documentation
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+
