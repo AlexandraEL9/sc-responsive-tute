@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <style>
         .cities {
@@ -28,24 +29,178 @@
         <div>Lisbon</div>
     </div>
     <h1>WEEK 2</h1>
+    <h2>Bootstrap</h2>
+    <h3>Grid system</h3>
     <div class="container">
         <h2>SheCodes</h2>
         <div class="row">
-            <div class="col">
+            <div class="col-3">
                 SheCodes
             </div>
-            <div class="col">
+            <div class="col-3">
                 SheCodes+
+                <!--create columns within an existing column-->
+                <div class="row">
+                    <div class="col-4">
+                        Front-end
+                    </div>
+                    <div class="col-4">
+                        Back-end
+                    </div>
+                    <div class="col-4">
+                        Design
+                    </div>
+                </div>
             </div>
-            <div class="col">
+            <div class="col-3">
                 SheCodes Express
             </div>
-            <div class="col">
+            <div class="col-3">
                 SheCodes Story
             </div>
-
         </div>
-
     </div>
+    <h3>Bootstrap components</h3>
+    <h4>Buttons</h4>
+    <button type="button" class="btn btn-success">Success</button>
+    <h4>Cards</h4>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <h4>Utility classes</h4>
+      <p>added to the class of elements to style them, for example add a border around a title:</p>
+      <h1 class="border p-5 mt-3 rounded shadow">SheCodes</h1>
+    <h3>Bootstrap challenge</h3>
+    <h3>Challenge 1</h3>
+    <p>
+      Import the latest version of Boostrap CSS to this page <br />
+      👉 <a href="https://getbootstrap.com/" target="_blank"> Bootstrap </a>
+    </p>
+    <h3>Challenge 2</h3>
+    <p>
+      Move the following list into a layout of 4 columns <br />
+      👉
+      <a href="https://getbootstrap.com/docs/4.3/layout/grid/" target="_blank">
+        Bootstrap
+      </a>
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">Today</div>
+        <div class="col-3">Tomorrow</div>
+        <div class="col-3">Weekend</div>
+        <div class="col-3">Next week</div>
+      </div>
+    </div>
+
+    <h3>Challenge 3</h3>
+    <p>Add a bootstrap red button here</p>
+    <button type="button" class="btn btn-danger">Danger</button>
+    👉
+    <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Buttons</a>
+
+    <h3>Challenge 4</h3>
+    <p>
+      Display 3 cards in a a grid of 3 columns <br />
+      👉
+      <a
+        href="https://getbootstrap.com/docs/4.3/components/card/"
+        target="_blank"
+      >
+        Cards
+      </a>
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>Lesson 3 Utility CSS classes</h2>
+    <h3 class="center underline">Make center and underlined</h3>
+    <p class="center">This is a basic paragraph center aligned</p>
+    <p>A piece of text with a <span class="highlight">highlight</span></p>
+    <h1 class="border border-5 bg-success text-white text-center"> A Title with a border and a green background and white text</h1>
+    <button class="btn btn-primary shadow d-block text-decoration-underline pt-2 pe-1 pb-5 ps-2 ">Learn to code</button>
+    <button class="btn btn-warning mt-5 ms-3 mb-1 me-1">Another button with margin</button>
+
+    <h2>Challenge</h2>
+    <h3>Challenge 1</h3>
+    <p>Import Bootstrap</p>
+
+    <h3>Challenge 2</h3>
+    <p>
+      Add a border around each color without using CSS, the border color should
+      match the color name (i.e blue border around the word Blue)
+    </p>
+    <div class="border border-5 border-primary">Blue</div>
+    <div class="border border-5 border-danger">Red</div>
+    <div class="border border-5 border-success">Green</div>
+
+    <h3>Challenge 3</h3>
+    <p>Make this link black and not underlined using CSS classes</p>
+    <a text-dark text-decoration-nonehref="https://www.shecodes.io/"
+      >SheCodes Workshops</a
+    >
+
+    <h3>Challenge 4</h3>
+    <p>
+      Using CSS classes, add a yellow background to this button, with a large
+      shadow and full width
+    </p>
+    <a href="https://www.shecodes.io/" class="btn btn-warning shadoe-lg w-100"
+      >Get started</a
+    >
+
+    <h3>Challenge 5</h3>
+    <p>
+      Create a custom utility class called shadow-xl which adds a lot of shadow
+      and apply it to this button, add a green gradient background to this
+      button with yellow and uppercased text
+    </p>
+    <a
+      href="https://www.shecodes.io/"
+      class="shadow-xl bg-success bg-gradient btn mb-5 text-warning text-uppercase"
+      >Get started</a
+    >
+
+
 </body>
 </html>

@@ -105,6 +105,16 @@ Using bootstrap grid system
 
 - content must be inside a div called container---- <div class="container"></div>
 elements to create columns within rows <div class="row"></div>
+- put content into columns within the rows
+         <div class="col">
+                SheCodes
+            </div>
+            <div class="col">
+                SheCodes+
+            </div>
+
+--can specify number of columns
+    <div class="col-3"></div>
 
 SNIPPETS
 
@@ -251,3 +261,137 @@ https://getbootstrap.com/docs/5.3/layout/grid/#example
 
 -Bootstrap
 https://getbootstrap.com/
+
+
+---------------------------------------------------3 CSS Utility classes
+make htmlhow you want it without using css- good for prototyping- also quicker
+
+--custom classes
+set up the behaviour of the classes in the css file    eg
+.center {
+    text-align: center;
+}
+- now whenever class of center- that wil be center aligned
+
+--bootstrap classes
+bootstrap have lots of own classes
+eg
+<h1 class="border border-5"> A Title with a border</h1>
+
+
+
+
+SNIPPETS
+
+--class selector
+
+/* All elements with class="spacious" */
+.spacious {
+  margin: 20px;
+}
+
+/* All <li> elements with class="spacious" */
+li.spacious {
+  margin: 20px;
+}
+
+/* All <li> elements with a class list that includes both "spacious" and "elegant" */
+/* For example, class="elegant retro spacious" */
+li.spacious.elegant {
+  margin: 20px;
+}
+
+/* All <li> elements OR All elements with class="spacious" */
+li, .spacious {
+  margin: 20px;
+}
+
+--Borders
+<span class="border"></span>
+<span class="border-top"></span>
+<span class="border-end"></span>
+<span class="border-bottom"></span>
+<span class="border-start"></span>
+
+--Colours
+<p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning bg-dark">.text-warning</p>
+<p class="text-info bg-dark">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-body">.text-body</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+
+--Display property
+<div class="d-inline">
+  display inline
+</div>
+<span class="d-block">
+  display block
+</span>
+<span class="d-flex">
+  display flex
+</span>
+<span class="d-none">
+  display none
+</span>
+<div class="d-none d-lg-block">
+  Visible on large screens, hidden on smaller resolutions
+</div>
+
+--Shadows
+<div class="shadow-none">No shadow</div>
+<div class="shadow-sm">Small shadow</div>
+<div class="shadow">Regular shadow</div>
+<div class="shadow-lg">Larger shadow</div>
+
+--Margin
+<div class="m-0">
+  No margin
+</div>
+<div class="mt-5">
+  Large margin top
+</div>
+<div class="mt-5 mr-5">
+  Large margin top and right
+</div>
+<div class="m-5">
+  Large margin
+</div>
+<div class="m-3 ml-1">
+  Medium margin and small margin left
+</div>
+
+--Padding
+<div class="p-0">
+  No padding
+</div>
+<div class="pt-5">
+  Large padding top
+</div>
+<div class="pt-5 pr-5">
+  Large padding top and right
+</div>
+<div class="p-5">
+  Large padding
+</div>
+<div class="p-3 pl-1">
+  Medium padding and small padding left
+</div>
+
+--Text
+<p class="text-center">Center aligned text</p>
+<p class="text-end">End aligned text</p>
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+<p class="fw-bold">Bold text.</p>
+<p class="text-decoration-underline">This text has a line underneath it.</p>
+<p class="text-decoration-line-through">This text has a line going through it.</p>
+<a href="#" class="text-decoration-none">This link has its text decoration removed</a>
+
+
