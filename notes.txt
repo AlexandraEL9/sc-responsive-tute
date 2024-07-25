@@ -430,3 +430,19 @@ SNIPPETS
     <div class="col-sm-3 col-md-6">Hello</div>
 </div>
 
+---------------------------------------------------5 Responsive Images
+
+-without bootstrap
+
+SNIPPETS
+
+--Responsive Image
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+--Responsive Image
+
+<img src="..." class="img-fluid" alt="...">
+

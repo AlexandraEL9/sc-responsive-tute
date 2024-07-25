@@ -13,4 +13,9 @@
 .shadow-xl {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
-  
+
+/*Make image responsive with css 
+img {
+    max-width: 100%;
+    height: auto;
+}*/
