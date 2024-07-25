@@ -395,3 +395,38 @@ li, .spacious {
 <a href="#" class="text-decoration-none">This link has its text decoration removed</a>
 
 
+---------------------------------------------------4 Responsive Grids
+difference between flexbox and grid method
+
+flexbox- can use with bootstrap
+wrap each element inside a div and wrap in <div class="d-flex justify-content-evenly">
+
+add column number detail for differing screen sizes of screeb
+
+
+SNIPPETS
+
+--Justify Content
+<div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div>
+<div class="d-flex justify-content-evenly">...</div>
+
+-- Auto-layout columns grid
+<div class="container">
+  <div class="row">
+    <div class="col-8">col-8</div>
+    <div class="col-4">col-4</div>
+  </div>
+</div>
+
+-- Responsive Grid
+<div class="row">
+    <div class="col-sm-3 col-md-6">Hello</div>
+    <div class="col-sm-3 col-md-6">Hello</div>
+    <div class="col-sm-3 col-md-6">Hello</div>
+    <div class="col-sm-3 col-md-6">Hello</div>
+</div>
+

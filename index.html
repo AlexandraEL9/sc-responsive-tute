@@ -153,53 +153,138 @@
         </div>
       </div>
     </div>
-    <h2>Lesson 3 Utility CSS classes</h2>
-    <h3 class="center underline">Make center and underlined</h3>
-    <p class="center">This is a basic paragraph center aligned</p>
-    <p>A piece of text with a <span class="highlight">highlight</span></p>
-    <h1 class="border border-5 bg-success text-white text-center"> A Title with a border and a green background and white text</h1>
-    <button class="btn btn-primary shadow d-block text-decoration-underline pt-2 pe-1 pb-5 ps-2 ">Learn to code</button>
-    <button class="btn btn-warning mt-5 ms-3 mb-1 me-1">Another button with margin</button>
 
-    <h2>Challenge</h2>
+    <div>
+      <h2>Lesson 3 Utility CSS classes</h2>
+      <h3 class="center underline">Make center and underlined</h3>
+      <p class="center">This is a basic paragraph center aligned</p>
+      <p>A piece of text with a <span class="highlight">highlight</span></p>
+      <h1 class="border border-5 bg-success text-white text-center"> A Title with a border and a green background and white text</h1>
+      <button class="btn btn-primary shadow d-block text-decoration-underline pt-2 pe-1 pb-5 ps-2 ">Learn to code</button>
+      <button class="btn btn-warning mt-5 ms-3 mb-1 me-1">Another button with margin</button>
+
+      <h2>Challenge</h2>
+      <h3>Challenge 1</h3>
+      <p>Import Bootstrap</p>
+
+      <h3>Challenge 2</h3>
+      <p>
+        Add a border around each color without using CSS, the border color should
+        match the color name (i.e blue border around the word Blue)
+      </p>
+      <div class="border border-5 border-primary">Blue</div>
+      <div class="border border-5 border-danger">Red</div>
+      <div class="border border-5 border-success">Green</div>
+
+      <h3>Challenge 3</h3>
+      <p>Make this link black and not underlined using CSS classes</p>
+      <a text-dark text-decoration-nonehref="https://www.shecodes.io/"
+        >SheCodes Workshops</a
+      >
+
+      <h3>Challenge 4</h3>
+      <p>
+        Using CSS classes, add a yellow background to this button, with a large
+        shadow and full width
+      </p>
+      <a href="https://www.shecodes.io/" class="btn btn-warning shadoe-lg w-100"
+        >Get started</a
+      >
+
+      <h3>Challenge 5</h3>
+      <p>
+        Create a custom utility class called shadow-xl which adds a lot of shadow
+        and apply it to this button, add a green gradient background to this
+        button with yellow and uppercased text
+      </p>
+      <a
+        href="https://www.shecodes.io/"
+        class="shadow-xl bg-success bg-gradient btn mb-5 text-warning text-uppercase"
+        >Get started</a>
+    </div>
+
+    <div>
+      <h2>Lesson 4 Responsive Grids</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            1
+          </div>
+          <div class="col">
+            2
+          </div>
+          <div class="col">
+            3
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Responsive grids Challenge</h1>
+
     <h3>Challenge 1</h3>
     <p>Import Bootstrap</p>
 
     <h3>Challenge 2</h3>
     <p>
-      Add a border around each color without using CSS, the border color should
-      match the color name (i.e blue border around the word Blue)
+      Using flexbox and bootstrap, horizontally align the 3 colors (evenly
+      spaced out)
     </p>
-    <div class="border border-5 border-primary">Blue</div>
-    <div class="border border-5 border-danger">Red</div>
-    <div class="border border-5 border-success">Green</div>
+    <div class="d-flex justify-content-evenly">
+      <div>Blue</div>
+      <div>Red</div>
+      <div>Green</div>
+    </div>
 
     <h3>Challenge 3</h3>
-    <p>Make this link black and not underlined using CSS classes</p>
-    <a text-dark text-decoration-nonehref="https://www.shecodes.io/"
-      >SheCodes Workshops</a
-    >
+    <p>
+      Create a responsive grid with 3 columns, one taking 50% of the screen and
+      the 2 taking 25% of the screen each
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">Blue</div>
+        <div class="col-3">Red</div>
+        <div class="col-3">Green</div>
+      </div>
+    </div>
 
     <h3>Challenge 4</h3>
     <p>
-      Using CSS classes, add a yellow background to this button, with a large
-      shadow and full width
+      Create a responsive grid with 3 rows, the first row should have 2 equal
+      columns, the second one 6 equal columns, the 3 one 12 equal columns.
+      Include a number or a letter in each grid cell. Add a border around each
+      cell too.
     </p>
-    <a href="https://www.shecodes.io/" class="btn btn-warning shadoe-lg w-100"
-      >Get started</a
-    >
-
-    <h3>Challenge 5</h3>
-    <p>
-      Create a custom utility class called shadow-xl which adds a lot of shadow
-      and apply it to this button, add a green gradient background to this
-      button with yellow and uppercased text
-    </p>
-    <a
-      href="https://www.shecodes.io/"
-      class="shadow-xl bg-success bg-gradient btn mb-5 text-warning text-uppercase"
-      >Get started</a
-    >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 border text-center">1</div>
+        <div class="col-sm-6 border text-center">2</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 border text-center">1</div>
+        <div class="col-sm-2 border text-center">2</div>
+        <div class="col-sm-2 border text-center">3</div>
+        <div class="col-sm-2 border text-center">4</div>
+        <div class="col-sm-2 border text-center">5</div>
+        <div class="col-sm-2 border text-center">6</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 border text-center">1</div>
+        <div class="col-sm-1 border text-center">2</div>
+        <div class="col-sm-1 border text-center">3</div>
+        <div class="col-sm-1 border text-center">4</div>
+        <div class="col-sm-1 border text-center">5</div>
+        <div class="col-sm-1 border text-center">6</div>
+        <div class="col-sm-1 border text-center">7</div>
+        <div class="col-sm-1 border text-center">8</div>
+        <div class="col-sm-1 border text-center">9</div>
+        <div class="col-sm-1 border text-center">10</div>
+        <div class="col-sm-1 border text-center">11</div>
+        <div class="col-sm-1 border text-center">12</div>
+      </div>
+    </div>
+    
 
 
 </body>
