@@ -446,3 +446,118 @@ img {
 
 <img src="..." class="img-fluid" alt="...">
 
+
+---------------------------------------------------6 Responsive Navigation
+
+
+SNIPPETS
+
+--responsive Navigation
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+______________________________________________________________________________________  WEEK 3
+----------------------------------------------------- 1- Overview
+1- Overview
+2- Responsive Testing
+3- CSS Media Queries
+4- Live Server
+5- Multiple Page Hosting
+6- SEO
+7- Summary
+8- Homework
+
+----------------------------------------------------- 2- Responsive Testing
+Using developer tools to view website on different devices/ resolution
+
+can select different devices
+
+can view in portrait and landscape mode
+
+Responsive mode- drag side to side to change sizes
+
+can still change dev tools within differing modes
+
+can simulate better or poor internet
+
+-----Link
+--Mobile Device Mode
+
+https://developer.chrome.com/docs/devtools/device-mode/
+
+
+----------------------------------------------------- 3- CSS Media Queries
+
+Used to apply css only on specific screen resolutions
+eg- only apply this css when the screen is x-pixels
+
+look at/ check device breakpoints
+
+Can also hide things on mobile devices
+
+put at bottom of css file
+
+bootstrap also has css utility classes that can be used to hide elements
+--eg
+<h6 class="d-none d-sm--block>This uses bootstrap utility classes to show/hide</h6>
+
+SNIPPETS
+--Media Queries
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    color: red;
+  }
+}
+
+--Display Property
+
+<div class="d-inline">
+  display inline
+</div>
+<span class="d-block">
+  display block
+</span>
+<span class="d-flex">
+  display flex
+</span>
+<span class="d-none">
+  display none
+</span>
+<div class="d-none d-lg-block">
+  Visible on large screens, hidden on smaller resolutions
+</div>
+
+
+
