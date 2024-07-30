@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+    <a href="/about.html">About Me</a>
+    <br>
+    <a href="/work.html">My Work</a>
+    <br>
+    <a href="/blog/thiland-trip.html">My Thailand Trip</a>
+    <h2>Advanced flexbox</h2>
+    <div class="cities">
+        <div>Paris</div>
+        <div>Bangkok</div>
+        <div>San Francisco</div>
+        <div>Lisbon</div>
+    </div>
+    <h1>WEEK 2</h1>
+    <h2>Bootstrap</h2>
+    <h3>Grid system</h3>
+    <div class="container">
+        <h2>SheCodes</h2>
+        <div class="row">
+            <div class="col-3">
+                SheCodes
+            </div>
+            <div class="col-3">
+                SheCodes+
+                <!--create columns within an existing column-->
+                <div class="row">
+                    <div class="col-4">
+                        Front-end
+                    </div>
+                    <div class="col-4">
+                        Back-end
+                    </div>
+                    <div class="col-4">
+                        Design
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                SheCodes Express
+            </div>
+            <div class="col-3">
+                SheCodes Story
+            </div>
+        </div>
+    </div>
+    <h3>Bootstrap components</h3>
+    <h4>Buttons</h4>
+    <button type="button" class="btn btn-success">Success</button>
+    <h4>Cards</h4>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <h4>Utility classes</h4>
+      <p>added to the class of elements to style them, for example add a border around a title:</p>
+      <h1 class="border p-5 mt-3 rounded shadow">SheCodes</h1>
+    <h3>Bootstrap challenge</h3>
+    <h3>Challenge 1</h3>
+    <p>
+      Import the latest version of Boostrap CSS to this page <br />
+      👉 <a href="https://getbootstrap.com/" target="_blank"> Bootstrap </a>
+    </p>
+    <h3>Challenge 2</h3>
+    <p>
+      Move the following list into a layout of 4 columns <br />
+      👉
+      <a href="https://getbootstrap.com/docs/4.3/layout/grid/" target="_blank">
+        Bootstrap
+      </a>
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">Today</div>
+        <div class="col-3">Tomorrow</div>
+        <div class="col-3">Weekend</div>
+        <div class="col-3">Next week</div>
+      </div>
+    </div>
+
+    <h3>Challenge 3</h3>
+    <p>Add a bootstrap red button here</p>
+    <button type="button" class="btn btn-danger">Danger</button>
+    👉
+    <a href="https://getbootstrap.com/docs/4.3/components/buttons/">Buttons</a>
+
+    <h3>Challenge 4</h3>
+    <p>
+      Display 3 cards in a a grid of 3 columns <br />
+      👉
+      <a
+        href="https://getbootstrap.com/docs/4.3/components/card/"
+        target="_blank"
+      >
+        Cards
+      </a>
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Lesson 3 Utility CSS classes</h2>
+      <h3 class="center underline">Make center and underlined</h3>
+      <p class="center">This is a basic paragraph center aligned</p>
+      <p>A piece of text with a <span class="highlight">highlight</span></p>
+      <h1 class="border border-5 bg-success text-white text-center"> A Title with a border and a green background and white text</h1>
+      <button class="btn btn-primary shadow d-block text-decoration-underline pt-2 pe-1 pb-5 ps-2 ">Learn to code</button>
+      <button class="btn btn-warning mt-5 ms-3 mb-1 me-1">Another button with margin</button>
+
+      <h2>Challenge</h2>
+      <h3>Challenge 1</h3>
+      <p>Import Bootstrap</p>
+
+      <h3>Challenge 2</h3>
+      <p>
+        Add a border around each color without using CSS, the border color should
+        match the color name (i.e blue border around the word Blue)
+      </p>
+      <div class="border border-5 border-primary">Blue</div>
+      <div class="border border-5 border-danger">Red</div>
+      <div class="border border-5 border-success">Green</div>
+
+      <h3>Challenge 3</h3>
+      <p>Make this link black and not underlined using CSS classes</p>
+      <a text-dark text-decoration-nonehref="https://www.shecodes.io/"
+        >SheCodes Workshops</a
+      >
+
+      <h3>Challenge 4</h3>
+      <p>
+        Using CSS classes, add a yellow background to this button, with a large
+        shadow and full width
+      </p>
+      <a href="https://www.shecodes.io/" class="btn btn-warning shadoe-lg w-100"
+        >Get started</a
+      >
+
+      <h3>Challenge 5</h3>
+      <p>
+        Create a custom utility class called shadow-xl which adds a lot of shadow
+        and apply it to this button, add a green gradient background to this
+        button with yellow and uppercased text
+      </p>
+      <a
+        href="https://www.shecodes.io/"
+        class="shadow-xl bg-success bg-gradient btn mb-5 text-warning text-uppercase"
+        >Get started</a>
+    </div>
+
+    <div>
+      <h2>Lesson 4 Responsive Grids</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            1
+          </div>
+          <div class="col">
+            2
+          </div>
+          <div class="col">
+            3
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Responsive grids Challenge</h1>
+
+    <h3>Challenge 1</h3>
+    <p>Import Bootstrap</p>
+
+    <h3>Challenge 2</h3>
+    <p>
+      Using flexbox and bootstrap, horizontally align the 3 colors (evenly
+      spaced out)
+    </p>
+    <div class="d-flex justify-content-evenly">
+      <div>Blue</div>
+      <div>Red</div>
+      <div>Green</div>
+    </div>
+
+    <h3>Challenge 3</h3>
+    <p>
+      Create a responsive grid with 3 columns, one taking 50% of the screen and
+      the 2 taking 25% of the screen each
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">Blue</div>
+        <div class="col-3">Red</div>
+        <div class="col-3">Green</div>
+      </div>
+    </div>
+
+    <h3>Challenge 4</h3>
+    <p>
+      Create a responsive grid with 3 rows, the first row should have 2 equal
+      columns, the second one 6 equal columns, the 3 one 12 equal columns.
+      Include a number or a letter in each grid cell. Add a border around each
+      cell too.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 border text-center">1</div>
+        <div class="col-sm-6 border text-center">2</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 border text-center">1</div>
+        <div class="col-sm-2 border text-center">2</div>
+        <div class="col-sm-2 border text-center">3</div>
+        <div class="col-sm-2 border text-center">4</div>
+        <div class="col-sm-2 border text-center">5</div>
+        <div class="col-sm-2 border text-center">6</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1 border text-center">1</div>
+        <div class="col-sm-1 border text-center">2</div>
+        <div class="col-sm-1 border text-center">3</div>
+        <div class="col-sm-1 border text-center">4</div>
+        <div class="col-sm-1 border text-center">5</div>
+        <div class="col-sm-1 border text-center">6</div>
+        <div class="col-sm-1 border text-center">7</div>
+        <div class="col-sm-1 border text-center">8</div>
+        <div class="col-sm-1 border text-center">9</div>
+        <div class="col-sm-1 border text-center">10</div>
+        <div class="col-sm-1 border text-center">11</div>
+        <div class="col-sm-1 border text-center">12</div>
+      </div>
+    </div>
+
+    <h2>Lesson 5 Responsive Images</h2>
+    <div>
+      <h4>Make image responsive without bootstrap- using css</h4>
+      <img src="/woman-coding.jpg" alt="female hand coding on laptop">
+    </div>
+    <div>
+      <h4>Make image responsive with bootstrap</h4>
+      <div class="container">
+        <img src="/lady-coding.jpg" class= "img-fluid rounded shadow-sm p-2 border" alt="female coding on laptop">
+      </div>
+      <h4>Make images responsive- with a grid</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="/lady-coding.jpg" class= "img-fluid rounded shadow-sm p-2 border" alt="female coding on laptop">
+          </div>
+          <div class="col-sm-4">
+            <img src="/lady-coding.jpg" class= "img-fluid rounded shadow-sm p-2 border" alt="female coding on laptop">
+          </div>
+          <div class="col-sm-4">
+            <img src="/lady-coding.jpg" class= "img-fluid rounded shadow-sm p-2 border" alt="female coding on laptop">
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Lesson 5 Responsive images CHALLENGE</h1>
+    <h3>Challenge 1</h3>
+    <p>Import Bootstrap</p>
+
+    <h3>Challenge 2</h3>
+    <p>Display the SheCodes logo below and make it responsive</p>
+    <img src="/images/logo.jpg" alt="SheCodes Logo" class="logo img-fluid" />
+
+    <h3>Challenge 3</h3>
+    <p>
+      Display the 6 SheCodes logos below horizontally aligned using responsive
+      grids
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+        <div class="col-sm-2 border">
+          <img
+            src="/images/logo.jpg"
+            alt="SheCodes Logo"
+            class="logo img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <h2>Responsive nav links</h2>
+    <h3>Challenge</h3>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCodes Logo" class="logo" />
+    <h1>Responsive navigation</h1>
+
+    <h3>Challenge 1</h3>
+    <p>Import Bootstrap (CSS and JS)</p>
+
+    <h3>Challenge 2</h3>
+    <p>
+      Include a basic blue responsive navigation below (don't change the
+      content)
+    </p>
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+    </nav>
+
+    <h3>Challenge 3</h3>
+    <p>
+      Include a basic light colored navigation here, replace Navbar by the
+      SheCodes logo, add 3 links, one called Stories (going to
+      https://www.shecodes.io/stories), one called Workshop going to
+      (https://www.shecodes.io/workshops) and one called Students (going to
+      https://www.shecodes.io/students).
+    </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="" class="navbar-logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.shecodes.io/stories"
+                target="_blank"
+                >Stories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.shecodes.io/workshops
+                "
+                target="_blank"
+                >Workshops</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="https://www.shecodes.io/students"
+                target="_blank"
+                >Students</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Week 3</h1>
+    <h2>CSS Media Queries</h2>
+    <h6>This isn't important! HIDE IT on mobile devices!</h6>
+    <h5 class="d-none d-lg-block">This uses bootstrap utility classes to show/hide</h5>
+  </body>
+</html>
+
+    
+
+
+</body>
+</html>

@@ -1,57 +1,25 @@
 body {
-    background-color: white;
-}
-
-.cities {
-    display: flex;
-    
-    justify-content: space-evenly;
-}
-
-/* Utility CSS classes */
-.center {
+    background: #f8e8a6;
+  }
+  
+  h1,
+  p {
     text-align: center;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.highlight {
-    background: pink;
-    padding: 10px;
-}
-
-.shadow-xl {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Make image responsive */
-img {
+  }
+  
+  .croissant-photo {
     max-width: 100%;
-    height: auto;
-}
-
-/* CSS Media Queries */
-
-/* Center align and change color of h1 on small devices (max-width: 600px) */
-@media (max-width: 600px) {
-    h1 {
-        text-align: center;
-        color: red;
-    }
-}
-
-/* Hide h6 elements on devices with a screen width up to 800px */
-@media (max-width: 800px) {
-    h6 {
-        display: none;
-    }
-}
-
-/* Change background color and text color on devices with a minimum width of 801px */
-@media (min-width: 801px) { /* Adjusted to avoid overlap */
-    body {
-        background-color: burlywood !important; /* Ensure correct property */
-    }
-}
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: green;
+  }
+  

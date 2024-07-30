@@ -560,4 +560,24 @@ SNIPPETS
 </div>
 
 
+----------------------------------------------------- 4- Live Server
+
+switch on --- bottom right,   go live,    opens new tab
+website is live
+
+shows changes immediatly without reload of page
+
+replicates a server eg like netlify etc--- only use for static websites
+
+-- file paths
+- can use absolute paths instead of relative paths
+  /= go to root of website
+
+----------------------------------------------------5- multiple page Hosting
+host multi pge website on netlify et al
+
+make repo (vscode)
+create index.html    Homepage
+start server
+
 
