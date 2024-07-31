@@ -580,4 +580,48 @@ make repo (vscode)
 create index.html    Homepage
 start server
 
+----------------------------------------------------6- SEO
+Search Engine Optimisation
+
+
+SNIPPETS
+
+-Title element
+-- Determine the document's title that will be shown in a browser’s title bar or a page's tab More info
+<title>The title of your website - Brand</title>
+
+-Meta description
+
+<head>  
+  <meta name="description"  content="This is an example of a meta description. This will often show up in search results." />
+</head>
+
+
+- Image
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/182/original/cat.png?1685030491" />
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/182/original/cat.png?1685030491" alt="Image description" />
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/182/original/cat.png?1685030491" alt="Image description" width="400" />
+
+
+- Link
+<a href="https://www.shecodes.io/">SheCodes</a>
+<a href="https://www.shecodes.io/" target="_blank">SheCodes</a>
+<a href="https://www.shecodes.io/" target="_blank" title="SheCodes Website">SheCodes</a>
+
+--adds a link to a page
+
+
+links
+
+-install google analytics
+https://analytics.google.com/analytics/web/provision/#/provision
+
+-website seo checker- free audit and analysis
+https://chromewebstore.google.com/detail/website-seo-checker-free/nljcdkjpjnhlilgepggmmagnmebhadnk?hl=en
+
+-keep your website fast- google speed insights
+https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect
+
+
+
 
