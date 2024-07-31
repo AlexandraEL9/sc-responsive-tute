@@ -582,6 +582,32 @@ start server
 
 ----------------------------------------------------6- SEO
 Search Engine Optimisation
+- give page title- shows at top of tab- google looks at title and infers content of page
+
+eg   sheCodes    not great as only brand- no clues for goole as to the content
+     better
+  include keywords as to page content  
+
+meta tag- includes a description of the site content- short and keywords
+
+seo friendly
+- have only one h1 on the page- doesn't have to be largest but does need to be there.
+
+- can have as many subheadings as like
+
+-links
+ensure link text has context so google can interpret the destination of the link
+
+include a title within a link (can be seen on hover) adds more context
+
+-Images
+ensure alt text
+
+ca put google analytics in head
+
+
+
+
 
 
 SNIPPETS
