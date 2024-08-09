@@ -649,5 +649,38 @@ https://chromewebstore.google.com/detail/website-seo-checker-free/nljcdkjpjnhlil
 https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect
 
 
+__________________________________________________________WEEK 4
+
+-----------------------------------------4.1 Overview
+1- Overview
+2- Portfolio Project Wireframe
+3- portfolio project user interface
+4- Figma
+5- Figma Dev Mode
+6- Portfolio project set-up
+7- Portfolio project / git+
+8- Portfolio project/ Homepage
+9- Portfolio Project / Homepage content
+10- Summary
+HOMEWORK- responsive homepage hosted online
+
+---------------------------------------4.2 Portfolio Project Wireframe
+creation of wireframes
+a basic sketch/ structure of website
+
+link
+- invision freehand
+https://projects.invisionapp.com/freehand/new
+
+
+-----------------------------------------4.3 Portfolio Project / User interface
+
+
+links
+--Portfolio examole
+https://benadam.me/
+
+--Portfolio example
+https://sebkay.com/
 
 
