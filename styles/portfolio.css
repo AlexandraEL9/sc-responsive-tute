@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #FFCB24;
+  --secondary-color: #BBE4E9;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -91,15 +91,16 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: darkslategrey;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  background: var(--secondary-color);
+  color: darkslategrey;
+  border: 1px solid darkslategrey;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -167,7 +168,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
+  color: darkslategrey;
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
@@ -176,8 +177,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
-  background: var(--branding-color);
+  color: var(--branding-color);
+  background: darkslategrey;
 }
 
 @media (max-width: 900px) {
